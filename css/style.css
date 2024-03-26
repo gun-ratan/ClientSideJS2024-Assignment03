@@ -1,0 +1,60 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px; 
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color:beige;
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+     margin: 5px; 
+    
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.head{
+    display: block;
+    margin: 10px;
+}
+#studentInfo{
+    font-size: 25px;
+    font-weight:200px;
+    color: white;
+}

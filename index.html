@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h1>Pizza Order Form</h1>
+        <form id="pizzaForm">
+            <label class="head" for="size">Size:</label>
+            <select  id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select><br>
+
+            <label class="head">Crust:</label><br>
+            <input type="radio" id="handTossed" name="crust" value="handTossed">
+            <label for="HandTossed">Hand Tossed</label>
+            <input type="radio" id="thinCrust" name="crust" value="thinCrust">
+            <label for="thinCrust">Thin Crust</label>
+            <input type="radio" id="wellDoneCrust" name="crust" value="wellDoneCrust">
+            <label for="wellDoneCrust">Well Done Crust</label><br>
+
+            <label for="toppings" class="head">Toppings:</label><br>
+            <input type="checkbox" id="pepper" name="toppings" value="pepper">
+            <label for="pepper">Pepper</label>
+            <input type="checkbox" id="mushroom" name="toppings" value="mushroom">
+            <label for="mushroom">Mushroom</label>
+            <input type="checkbox" id="onion" name="toppings" value="onion">
+            <label for="onion">Onion</label>
+            <input type="checkbox" id="pickles" name="toppings" value="pickles">
+            <label for="pickles">Pickles</label>
+            <input type="checkbox" id="mozzarella" name="toppings" value="mozzarella">
+            <label for="mozzarella">Mozzarella</label>
+            <input type="checkbox" id="spinach" name="toppings" value="spinach">
+            <label for="spinach">Spinach</label>
+            <input type="checkbox" id="tomatoes" name="toppings" value="tomatoes">
+            <label for="tomatoes">Tomatoes</label><br>
+
+            <label for="sauce" class="head">Sauce:</label>
+            <select id="sauce" name="sauce">
+                <option value="redSauce">Red Sauce</option>
+                <option value="extraHotRedSauce">Extra Hot Red Sauce</option>
+                <option value="garlicSauce">Garlic Sauce</option>
+            </select><br>
+
+            <button   class="container" type="button" id="orderButton">Order</button>
+        </form>
+        <p id="studentInfo"></p>
+    </div>
+    
+    
+
+    <script src="./JS/script.js" defer></script>
+</body>
+</html>
